@@ -52,7 +52,6 @@
             },
             methods: {
                 login() {
-                    console.log(this.user);
                     const loginAPI = "https://vue3-course-api.hexschool.io/admin/signin";
                     axios.post(loginAPI, this.user)
                         .then((res) => {
